@@ -1,9 +1,6 @@
 #include "Pokemon.h"
 using namespace std;
 
-
-
-
 Pokemon::Pokemon(string name, string pokedex)
 {
     mName = name;
@@ -26,5 +23,15 @@ string Pokemon::Getpokedex() { return mDescription; }
 
 int main() 
 {
+    Pokemon defaultPokemon = Pokemon();
+    cout << defaultPokemon.Getpokedex() << endl;
+    string name;
+    cin >> name;
+    cout << "What is your name ?" << endl;
+    string desc;
+    cin >> desc;
+    cout << "What is your description ?" << endl;
+    string classCategory
+
 
 }
