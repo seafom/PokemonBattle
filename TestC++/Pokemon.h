@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <list>
 
 using namespace std;
 
@@ -13,7 +14,7 @@ private:
 	std::string mDescription;
 	string nImage;
 	int mLifepoints;
-	string mCapabilities;
+	list<string> mAbilities = { "Attack another pokemon", "Take Damage", "Go In and out of pokéball", "Pass out", "Heal"};
 
 public:
 	Pokemon();
@@ -24,15 +25,14 @@ public:
 	std::string Getpokedex();
 	std::string Getimage();
 	int Getlifepoints();
-	void Setcapabilities(float newClass);
+	void Setcapabilities(string newClass);
 	
-
-
 };
 
-class Capabilities {
-public:
-	Capabilities()
+
+//class Capabilities {
+//public:
+	//Capabilities()
 
 
 //private:
@@ -40,9 +40,6 @@ public:
 	//int power;
 //};
 #endif
-
-
-
 
 
 //#ifndef STUDENT_H
