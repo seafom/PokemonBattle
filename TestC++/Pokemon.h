@@ -12,8 +12,10 @@ class Pokemon
 private:
 	std::string mName;
 	std::string mDescription;
-	string nImage;
+	enum mPokeType;
+	int mLevel;
 	int mLifepoints;
+	//4 Abilities
 	list<string> mAbilities;
 
 public:
@@ -25,9 +27,10 @@ public:
 	std::string GetDescription();
 	std::string Getimage();
 	int Getlifepoints();
-	void Setcapabilities(string newClass);
-	
+	void GetAbilities(string newClass);
 };
+
+
 
 
 //class Capabilities {
