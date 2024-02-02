@@ -35,8 +35,9 @@ Trainer::Trainer(string FirstName, string LastName, string CatchPhrase, float Mo
 
 
 
-int main() 
+int main()
 {
+    // Call the POKEMON TYPE
     PokeType pokemonType = PokeType::Grass;
 
     switch (pokemonType)
@@ -60,12 +61,12 @@ int main()
     }
 
     return 0;
+    
 
-
-    cout << "What is your name" << endl; //Display a text
-    string name; //Create the answer
-    cin >> name; // Store anything typed in answer
-    cout << "Hello" << name << ", What is your catch phrase ?" << endl; //Display a text
+    cout << "What is your name ? " << endl; //Display a text
+    string intro; //Create the answer
+    cin >> intro; // Store anything typed in answer
+    cout << "Hello" << intro << ", What is your catch phrase ?" << endl; //Display a text
 
     cout << "What is your name" << endl; //Display a text
     string catchphrase; //Create the answer

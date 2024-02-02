@@ -16,7 +16,6 @@ private:
 	enum mPokeType;
 	int mLevel;
 	float mLifepoints;
-
 	//4 Abilities
 	list<string> mAbilities;
 
@@ -42,16 +41,27 @@ private:
 	string mCatchPhrase;
 	float mMoney;
 	float mLifePoints;
+	int numberpokeballs
 
 public:
 	Trainer();
-	Trainer(string firstName, string lastName, string catchPhrase, float money);
+	Trainer(string firstName, string lastName, string catchPhrase, float money, int numberpokeballs);
 
 	string GetFirstName();
 	string GetLastName();
 	float GetMoney();
 	float GetLifePoints();
 };
+
+
+class Ability 
+{
+private :
+	float mDamage;
+
+public :
+	Ability();
+	Ability();
 
 //POKETYPE
 enum class PokeType
