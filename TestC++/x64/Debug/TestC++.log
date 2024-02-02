@@ -1,2 +1,14 @@
-﻿  TestC++.cpp
-  TestC++.vcxproj -> C:\Users\sibelle.bergier\Documents\TestC++\x64\Debug\TestC++.exe
+﻿  Pokemon.cpp
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.cpp(10,10): error C2511: 'Pokemon::Pokemon(std::string,std::string)': overloaded member function not found in 'Pokemon'
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.cpp(12,5): error C2597: illegal reference to non-static member 'Pokemon::mName'
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.h(13,14): message : see declaration of 'Pokemon::mName'
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.cpp(13,5): error C2597: illegal reference to non-static member 'Pokemon::mDescription'
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.h(14,14): message : see declaration of 'Pokemon::mDescription'
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.cpp(14,5): error C2597: illegal reference to non-static member 'Pokemon::mLifepoints'
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.h(16,6): message : see declaration of 'Pokemon::mLifepoints'
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.cpp(16,16): error C3079: an initializer list cannot be used as the right operand of this assignment operator
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.cpp(27,64): error C2065: 'mCapabilities': undeclared identifier
+C:\Users\sibelle.bergier\Documents\GitHub\TestCCplusplus1\TestC++\Pokemon.cpp(40,5): error C2146: syntax error: missing ';' before identifier 'cin'
+  TestC++.cpp
+  Generating Code...

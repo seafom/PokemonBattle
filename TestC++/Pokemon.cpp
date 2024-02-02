@@ -1,4 +1,10 @@
 #include "Pokemon.h"
+#include <string>
+#include <iostream>
+#include <vector>
+
+#include <list>
+
 using namespace std;
 
 Pokemon::Pokemon(string name, string pokedex)
@@ -6,25 +12,24 @@ Pokemon::Pokemon(string name, string pokedex)
     mName = name;
     mDescription = "Yapee";
     mLifepoints = 10;
-   //mImage =?
-   //mCapabilities = ?
+    mAbilities = { "Use Ability", "Learn a new ability", "Get in the pokeball", "Rest"};
+
 }
+
 Pokemon::Pokemon() {}
 
 string Pokemon::Getname() { return mName; }
 
-string Pokemon::Getpokedex() { return mDescription; }
+string Pokemon::GetDescription() { return mDescription; }
 
-//string Pokemon::Getimage() { return mFirstName + ’ ‘ + mLastName; }
+int Pokemon::Getlifepoints() { return mLifepoints; }
 
-//void Pokemon::Setcapabilities(float average) { mAverage = average; }
-
-//void Student::SetClass(string newClass) { mClass = newClass; }
+void Pokemon::Setcapabilities(string newCapabilities) { return mCapabilities; }
 
 int main() 
 {
     Pokemon defaultPokemon = Pokemon();
-    cout << defaultPokemon.Getpokedex() << endl;
+    cout << defaultPokemon.GetDescription() << endl;
     string name;
     cin >> name;
     cout << "What is your name ?" << endl;
@@ -32,6 +37,6 @@ int main()
     cin >> desc;
     cout << "What is your description ?" << endl;
     string classCategory
-
-
+    cin >> classCategory;
+    cout << "What is the image ?" << endl;
 }

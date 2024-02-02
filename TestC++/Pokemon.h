@@ -14,7 +14,7 @@ private:
 	std::string mDescription;
 	string nImage;
 	int mLifepoints;
-	list<string> mAbilities = { "Attack another pokemon", "Take Damage", "Go In and out of pokéball", "Pass out", "Heal"};
+	list<string> mAbilities;
 
 public:
 	Pokemon();
@@ -22,7 +22,7 @@ public:
 	Pokemon(std::string name, std::string description, std::string image);
 
 	std::string Getname();
-	std::string Getpokedex();
+	std::string GetDescription();
 	std::string Getimage();
 	int Getlifepoints();
 	void Setcapabilities(string newClass);
