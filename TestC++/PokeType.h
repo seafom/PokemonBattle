@@ -11,8 +11,9 @@ using namespace std;
 class Pokemon
 {
 private:
-	std::string mName;
-	std::string mDescription;
+	string mName;
+	string mDescription;
+	// Enmumeration PokeType
 	enum mPokeType;
 	int mLevel;
 	float mLifepoints;
@@ -41,11 +42,12 @@ private:
 	string mCatchPhrase;
 	float mMoney;
 	float mLifePoints;
-	int numberpokeballs
+	//UP TO 6 POKEMON
+	int mNumberPokeballs;
 
 public:
 	Trainer();
-	Trainer(string firstName, string lastName, string catchPhrase, float money, int numberpokeballs);
+	Trainer(string FirstName, string LastName, string CatchPhrase, float Money, int NumberPokeballs);
 
 	string GetFirstName();
 	string GetLastName();
@@ -54,23 +56,37 @@ public:
 };
 
 
-class Ability 
+class Ability
 {
-private :
-	float mDamage;
+private:
+	float mDamageAmount;
 
-public :
-	Ability();
-	Ability();
+public:
+	Ability(float DamageAmount) {};
+};
+
 
 //POKETYPE
 enum class PokeType
 {
+	Normal,
+	Fire,
 	Water,
 	Grass,
+	Electric,
 	Ice,
-	Plant,
-	Insect
+	Fighting,
+	Poison,
+	Ground,
+	Flying,
+	Psychic,
+	Bug,
+	Rock,
+	Ghost,
+	Dragon,
+	Dark,
+	Steel,
+	Fairy
 };
 
 

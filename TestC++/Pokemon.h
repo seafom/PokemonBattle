@@ -20,12 +20,12 @@ private:
 
 public:
 	Pokemon();
-	Pokemon(std::string name);
-	Pokemon(std::string name, std::string description, std::string image);
+	Pokemon(string name);
+	Pokemon(string name, std::string description);
 
-	std::string Getname();
-	std::string GetDescription();
-	std::string Getimage();
+	string Getname();
+	string GetDescription();
+	string Getimage();
 	int Getlifepoints();
 	void GetAbilities(string newClass);
 };
