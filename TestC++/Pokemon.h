@@ -1,5 +1,4 @@
 #pragma once
-#ifndef POKEMON_H
 #include <iostream>
 #include <vector>
 #include <string>
@@ -7,62 +6,54 @@
 
 using namespace std;
 
+//POKEMON
 class Pokemon
 {
 private:
-	std::string mName;
-	std::string mDescription;
+	string mName;
+	string mDescription;
+	// Enmumeration PokeType
 	enum mPokeType;
 	int mLevel;
-	int mLifepoints;
+	float mLifepoints;
 	//4 Abilities
 	list<string> mAbilities;
 
 public:
-	Pokemon();
-	Pokemon(string name);
-	Pokemon(string name, std::string description);
+	Pokemon(string Name, string Description, enum PokeType, int Level, float Lifepoints, list<string> mAbilities);
 
 	string Getname();
 	string GetDescription();
 	string Getimage();
 	int Getlifepoints();
-	void GetAbilities(string newClass);
+	void Setcapabilities(string newClass);
+
+};
+
+
+//TRAINER
+class Trainer
+{
+private:
+	string mFirstName;
+	string mLastName;
+	string mCatchPhrase;
+	float mMoney;
+	float mLifePoints;
+	//UP TO 6 POKEMON
+	int mNumberPokeballs;
+
+public:
+	Trainer(string FirstName, string LastName, string CatchPhrase, float Money, int NumberPokeballs);
+
+	string GetFirstName();
+	string GetLastName();
+	float GetMoney();
+	float GetLifePoints();
+
 };
 
 
 
 
-//class Capabilities {
-//public:
-	//Capabilities()
 
-
-//private:
-	//std::string name;
-	//int power;
-//};
-#endif
-
-
-//#ifndef STUDENT_H
-//#define STUDENT_H
-//class Student {
-//private:
-	//float mAverage;
-	//string mStudentId;
-	//string mFirstName;
-	//string mLastName;
-	//string mClass;
-
-//public:
-	//Student(string name, string id);
-	//~Student();
-	//string GetStudentId();
-	//float GetAverage();
-	//string GetFullName();
-	//void SetAverage(float average);
-	//void SetClass(string newClass);
-
-//};
-//#endif

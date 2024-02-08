@@ -1,31 +1,5 @@
 ﻿  Main.cpp
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\PokeType.h(12,1): error C2011: 'Pokemon': 'class' type redefinition
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
   Pokemon.cpp
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\PokeType.h(12,1): error C2011: 'Pokemon': 'class' type redefinition
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(15,10): error C2027: use of undefined type 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(16,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(17,5): error C2065: 'mName': undeclared identifier
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(18,5): error C2065: 'mDescription': undeclared identifier
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(19,5): error C2065: 'mLifepoints': undeclared identifier
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(20,5): error C2065: 'mAbilities': undeclared identifier
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(20,16): error C3079: an initializer list cannot be used as the right operand of this assignment operator
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(21,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(22,10): error C2027: use of undefined type 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(22,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(22,21): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(23,17): error C2027: use of undefined type 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(23,36): error C2065: 'mName': undeclared identifier
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(24,17): error C2027: use of undefined type 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(24,43): error C2065: 'mDescription': undeclared identifier
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(25,14): error C2027: use of undefined type 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
-C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(25,39): error C2065: 'mLifepoints': undeclared identifier
   PokeType.cpp
-  TestC++.cpp
   Generating Code...
+  TestC++.vcxproj -> C:\Users\sibelle.bergier\Documents\TestCCplusplus1\x64\Debug\TestC++.exe
