@@ -14,9 +14,9 @@
 using namespace std;
 
 //POKEMON
-Pokemon::Pokemon(string Name, string Description, enum PokeType, int Level, float Lifepoints, list<string> mAbilities)
+Pokemon::Pokemon(string PokemonName, string Description, enum PokeType, int Level, float Lifepoints, list<string> mAbilities)
 {
-    mName = Name;
+    mName = PokemonName;
     mDescription = Description;
     mLevel = Level;
     mLifepoints = Lifepoints;
@@ -37,84 +37,84 @@ Trainer::Trainer(string FirstName, string LastName, string CatchPhrase, float Mo
 };
 
 
-Ability::Ability(string Name1, float DamageAmount, PokeType1 mPokeType)
+// POKEMON ABILITY
+Ability::Ability(string mName, float mDamageAmount, float mHP, PokeType1 mPokeType, string mAttackName)
 {
-    mName1 = Name1;
-    mDamageAmount = DamageAmount;
-    PokeType1 = mPokeType;
+    mName1 = mName;
+    DamageAmount = mDamageAmount;
+    HP = mHP;
+    PokeType1 mPokeType;
+    AttackName = mAttackName;
 };
 
-PokeType Papilusion = PokeType ("Papilusion", )
 
 
+    // call the pokemon type
+    int main() 
+    {
 
+      /*  poketype pokemontype = poketype::grass;
 
+        if (pokemontype == poketype::normal) {
+            std::cout << "normal type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::fire) {
+            std::cout << "fire type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::water) {
+            std::cout << "water type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::grass) {
+            std::cout << "grass type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::electric) {
+            std::cout << "electric type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::ice) {
+            std::cout << "ice type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::fighting) {
+            std::cout << "fighting type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::poison) {
+            std::cout << "poison type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::ground) {
+            std::cout << "ground type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::flying) {
+            std::cout << "flying type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::psychic) {
+            std::cout << "psychic type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::bug) {
+            std::cout << "bug type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::rock) {
+            std::cout << "rock type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::ghost) {
+            std::cout << "ghost type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::dragon) {
+            std::cout << "dragon type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::dark) {
+            std::cout << "dark type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::steel) {
+            std::cout << "steel type pokemon selected" << std::endl;
+        }
+        else if (pokemontype == poketype::fairy) {
+            std::cout << "fairy type pokemon selected" << std::endl;
+        }
+        else {
+            std::cout << "invalid pokemon type" << std::endl;
+        }
 
-    
-    //// Call the POKEMON TYPE
-    //int main() {
-    //    PokeType pokemonType = PokeType::Grass;
-
-    //    if (pokemonType == PokeType::Normal) {
-    //        std::cout << "Normal type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Fire) {
-    //        std::cout << "Fire type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Water) {
-    //        std::cout << "Water type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Grass) {
-    //        std::cout << "Grass type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Electric) {
-    //        std::cout << "Electric type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Ice) {
-    //        std::cout << "Ice type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Fighting) {
-    //        std::cout << "Fighting type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Poison) {
-    //        std::cout << "Poison type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Ground) {
-    //        std::cout << "Ground type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Flying) {
-    //        std::cout << "Flying type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Psychic) {
-    //        std::cout << "Psychic type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Bug) {
-    //        std::cout << "Bug type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Rock) {
-    //        std::cout << "Rock type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Ghost) {
-    //        std::cout << "Ghost type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Dragon) {
-    //        std::cout << "Dragon type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Dark) {
-    //        std::cout << "Dark type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Steel) {
-    //        std::cout << "Steel type Pokemon selected" << std::endl;
-    //    }
-    //    else if (pokemonType == PokeType::Fairy) {
-    //        std::cout << "Fairy type Pokemon selected" << std::endl;
-    //    }
-    //    else {
-    //        std::cout << "Invalid Pokemon type" << std::endl;
-    //    }
-
-    //    return 0;
-    //}
+        return 0;
+    }*/
 
 
 
