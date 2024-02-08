@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-enum class PokeType 
+enum class PokeType1 
 {
 	Normal,
 	Fire,
@@ -21,5 +21,4 @@ enum class PokeType
 	Dark,
 	Steel,
 	Fairy
-
 };
