@@ -11,19 +11,15 @@ using namespace std;
 class Ability
 {
 private:
-	string mName1;
-	float DamageAmount;
-	float HP;
+	string mAttackName;
+	int mDamageAmount;
 	PokeType1 mPoketype;
-	string AttackName;
 
 public:
-	Ability(string mName1, float mDamageAmount, float mHP, PokeType1 mPoketype, string mAttackName);
-	string GetName();
-	float GetDamageAmount();
-	float GetHP();
-	PokeType1 GetPokeType();
+	Ability(string mAttackName, int mDamageAmount, PokeType1 mPoketype);
 	string GetAttackName();
+	int GetDamageAmount();
+	PokeType1 GetPokeType();
 
 };
 
