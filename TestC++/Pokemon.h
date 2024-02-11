@@ -17,45 +17,20 @@ private:
 	PokeType1 mPokeType;
 	int mLevel;
 	int mLife;
-	int mMaxLife
-		//4 Abilities
+	int mMaxLife;
 	vector<Ability> mAbilities;
 
 public:
-	Pokemon(string Name, string Description, PokeType1 mPokeType, int Level, int Life, int mMaxLife, vector<Pokemon> allPokemon);
+	Pokemon(string Name, string Description, PokeType1 mPokeType, int Level, int Life, int mMaxLife);
 
 	string Getname();
 	string GetDescription();
-	string Getimage();
-	int Getlifepoints();
-	void Setcapabilities(string newClass);
+	PokeType1 mPokeType();
+	int Level();
+	int Life();
+	int MaxLife();
+	vector<Pokemon> AllPokemons();
 };
-
-
-
-
-Pokemon Rattata ("Rattata", "I'm a Rat", PokeType1::Normal, 50, 105, 137,"");
-Pokemon Charmander ("Charmander", "I'm a", PokeType1::Fire, 13, 60, 82, "");
-Pokemon Carapuce("Charmander", "I'm a", PokeType1::Fire, 13, 60, 82, "");
-Pokemon Germignon("Germignon", 25, 100, PokeType1::Grass, "");
-Pokemon Pikachu("Pikachu", 25, 100, PokeType1::Electric, "");
-Pokemon Goupix("Goupix", 25, 100, PokeType1::Ice, "");
-Pokemon KickLee("KickLee", 25, 100, PokeType1::Fighting, "");
-Pokemon Abo("Abo", 25, 100, PokeType1::Poison, "");
-Pokemon Sablaireau("Sablaireau", 25, 100, PokeType1::Ground, "");
-Pokemon Arceus("Arceus", 25, 100, PokeType1::Flying, "");
-Pokemon Nucleos("Nucleos", 25, 100, PokeType1::Psychic, "");
-Pokemon Chenipan("Chenipan", 25, 100, PokeType1::Bug, "");
-Pokemon Kranidos("Kranidos", 25, 100, PokeType1::Rock, "");
-Pokemon Toutombe("Toutombe", 25, 100, PokeType1::Ghost, "");
-Pokemon Draco("Draco", 25, 100, PokeType1::Dragon, "");
-Pokemon Chacripain("Chacripan", 25, 100, PokeType1::Dark, "");
-Pokemon Miaouss("Miaouss", 25, 100, PokeType1::Steel, "");
-Pokemon Togepi("Togepi", 25, 100, PokeType1::Fairy, "");
-
-vector<Ability> allAbilities = { Rattata, Charmander, Carapuce, Germignon, Pikachu, Goupix, KickLee, Abo, Sablaireau,
-Chenipan, Nucleos, };
-
 
 
 
@@ -68,18 +43,18 @@ private:
 	string mFirstName;
 	string mLastName;
 	string mCatchPhrase;
-	float mMoney;
-	float mLifePoints;
+	int mMoney;
 	//UP TO 6 POKEMON
 	int mNumberPokeballs;
 
 public:
-	Trainer(string FirstName, string LastName, string CatchPhrase, float Money, int NumberPokeballs);
+	Trainer(string mFirstName, string mLastName, string mCatchPhrase, int mMoney, int mNumberPokeballs);
 
 	string GetFirstName();
 	string GetLastName();
-	float GetMoney();
-	float GetLifePoints();
+	string CatchPhrase();
+	int GetMoney();
+	int GetNumberPokeballs();
 
 };
 

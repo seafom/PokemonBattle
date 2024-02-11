@@ -11,7 +11,7 @@
 class AllAbilities
 {
 
-	string mAttackName, int mDamageAmount, PokeType1 mPoketype)
+	//(string mAttackName, int mDamageAmount, PokeType1 mPoketype)
 };
 
 
@@ -35,7 +35,7 @@ Ability Miaouss("Miaouss", 25, PokeType1::Steel);
 Ability Togepi("Togepi", 25, PokeType1::Fairy);
 
 
-vector<Ability> allAbilities = { Rattata, Charmander, Carapuce, Germignon, Pikachu, Goupix, KickLee, Abo, Sablaireau,
+vector<Ability> AllAbilities = { Charge, Charmander, Carapuce, Germignon, Pikachu, Goupix, KickLee, Abo, Sablaireau,
 Chenipan, Nucleos, };
 
 

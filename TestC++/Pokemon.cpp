@@ -4,6 +4,8 @@
 #include <vector>
 #include "PokeType.h"
 #include "Ability.h"
+#include "Pokemon.h"
+#include "AllPokemons.h"
 #include <list>
 
 
@@ -14,20 +16,22 @@
 using namespace std;
 
 //POKEMON
-Pokemon::Pokemon(string PokemonName, string Description, enum PokeType, int Level, float Lifepoints, list<string> mAbilities)
+Pokemon::Pokemon(string Name, string Description, PokeType1 mPokeType, int Level, int Life, int MaxLife)
 {
-    mName = PokemonName;
+    mName = Name;
     mDescription = Description;
+    PokeType1 mPokeType;
     mLevel = Level;
-    mLifepoints = Lifepoints;
-    mAbilities = {"Use Ability", "Learn a new ability", "Get in the pokeball", "Rest"};
-}
+    mLife = Life;
+    mMaxLife = MaxLife;
+    vector<Pokemon> AllPokemons;
+};
 
 
 
 
 // TRAINER
-Trainer::Trainer(string FirstName, string LastName, string CatchPhrase, float Money, int NumberPokeballs)
+Trainer::Trainer(string FirstName, string LastName, string CatchPhrase, int Money, int NumberPokeballs)
 {
     mFirstName = FirstName;
     mLastName = LastName;
@@ -38,13 +42,12 @@ Trainer::Trainer(string FirstName, string LastName, string CatchPhrase, float Mo
 
 
 // POKEMON ABILITY
-Ability::Ability(string mName, float mDamageAmount, float mHP, PokeType1 mPokeType, string mAttackName)
+Ability::Ability(string AttackName, int DamageAmount, PokeType1 mPoketype)
 {
-    mName1 = mName;
-    DamageAmount = mDamageAmount;
-    HP = mHP;
+    mAttackName = AttackName;
+    mDamageAmount = DamageAmount;
     PokeType1 mPokeType;
-    AttackName = mAttackName;
+    vector<Ability> AllAbilities;
 };
 
 
