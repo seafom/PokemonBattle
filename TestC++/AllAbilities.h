@@ -15,27 +15,25 @@ class AllAbilities
 };
 
 
-Ability Charge("Charge", 25,  PokeType1::Normal);
-Ability Charmander("Charmander", 25, PokeType1::Fire);
-Ability Carapuce("Carapuce", 25, PokeType1::Water);
-Ability Germignon("Germignon", 25,  PokeType1::Grass);
-Ability Pikachu("Pikachu", 25, PokeType1::Electric);
-Ability Goupix("Goupix", 25, PokeType1::Ice);
-Ability KickLee("KickLee", 25, PokeType1::Fighting);
-Ability Abo("Abo",25, PokeType1::Poison);
-Ability Sablaireau("Sablaireau", 25, PokeType1::Ground);
-Ability Arceus("Arceus", 25, PokeType1::Flying);
-Ability Nucleos("Nucleos", 25, PokeType1::Psychic);
-Ability Chenipan("Chenipan", 25, PokeType1::Bug);
-Ability Kranidos("Kranidos", 25, PokeType1::Rock);
-Ability Toutombe("Toutombe", 25, PokeType1::Ghost);
-Ability Draco("Draco", 25,PokeType1::Dragon);
-Ability Chacripain("Chacripan", 25, PokeType1::Dark);
-Ability Miaouss("Miaouss", 25, PokeType1::Steel);
-Ability Togepi("Togepi", 25, PokeType1::Fairy);
+Ability Charge("Charge", 12,  PokeType1::Normal);
+Ability Growl("Growl", 4, PokeType1::Water);
+Ability RazorLeaf("RazorLeaf", 5,  PokeType1::Grass);
+Ability Electricity("Electricity", 20, PokeType1::Electric);
+Ability TailWhip("TailWhip", 25, PokeType1::Ice);
+Ability SuperKick(" SuperKick", 10, PokeType1::Fighting);
+Ability Bite("Bite",8, PokeType1::Poison);
+Ability Desert("Desert", 9, PokeType1::Ground);
+Ability HorseKick("HorseKick", 12, PokeType1::Flying);
+Ability Confusion("Confusion", 2, PokeType1::Psychic);
+Ability Chenapan("Chenapan", 5, PokeType1::Bug);
+Ability HeadButt("HeadButt", 15, PokeType1::Rock);
+Ability Cross("Cross", 10, PokeType1::Ghost);
+Ability Drake("Drake", 7,PokeType1::Dragon);
+Ability Copycat("Copycat", 4, PokeType1::Dark);
+Ability Mioumiou("Mioumiou", 5, PokeType1::Steel);
+Ability Stardust("Stardust", 10, PokeType1::Fairy);
 
 
-vector<Ability> AllAbilities = { Charge, Charmander, Carapuce, Germignon, Pikachu, Goupix, KickLee, Abo, Sablaireau,
-Chenipan, Nucleos, };
+vector<Ability> AllAbilities = { Charge, Growl, RazorLeaf, Electricity, TailWhip, SuperKick, Bite, Desert, HorseKick, Confusion, Chenapan, HeadButt, Cross, Drake, Copycat, Mioumiou, Stardust };
 
 

@@ -17,18 +17,16 @@ private:
 	PokeType1 mPokeType;
 	int mLevel;
 	int mLife;
-	int mMaxLife;
 	vector<Ability> mAbilities;
 
 public:
-	Pokemon(string Name, string Description, PokeType1 mPokeType, int Level, int Life, int mMaxLife);
+	Pokemon(string Name, string Description, PokeType1 mPokeType, int Level, int Life);
 
 	string Getname();
 	string GetDescription();
 	PokeType1 mPokeType();
 	int Level();
 	int Life();
-	int MaxLife();
 	vector<Pokemon> AllPokemons();
 };
 

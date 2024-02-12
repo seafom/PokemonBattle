@@ -10,27 +10,29 @@
 
 class AllPokemons
 {
+
+	//string Name, string Description, PokeType1 mPokeType, int Level, int Life
 };
 
-Pokemon Rattata("Rattata", "I'm a Rat", PokeType1::Normal, 50, 105, 137, "");
-Pokemon Charmander("Charmander", "I'm a", PokeType1::Fire, 13, 60, 82, "");
-Pokemon Carapuce("Charmander", "I'm a", PokeType1::Fire, 13, 60, 82, "");
-Pokemon Germignon("Germignon", 25, 100, PokeType1::Grass, "");
-Pokemon Pikachu("Pikachu", 25, 100, PokeType1::Electric, "");
-Pokemon Goupix("Goupix", 25, 100, PokeType1::Ice, "");
-Pokemon KickLee("KickLee", 25, 100, PokeType1::Fighting, "");
-Pokemon Abo("Abo", 25, 100, PokeType1::Poison, "");
-Pokemon Sablaireau("Sablaireau", 25, 100, PokeType1::Ground, "");
-Pokemon Arceus("Arceus", 25, 100, PokeType1::Flying, "");
-Pokemon Nucleos("Nucleos", 25, 100, PokeType1::Psychic, "");
-Pokemon Chenipan("Chenipan", 25, 100, PokeType1::Bug, "");
-Pokemon Kranidos("Kranidos", 25, 100, PokeType1::Rock, "");
-Pokemon Toutombe("Toutombe", 25, 100, PokeType1::Ghost, "");
-Pokemon Draco("Draco", 25, 100, PokeType1::Dragon, "");
-Pokemon Chacripain("Chacripan", 25, 100, PokeType1::Dark, "");
-Pokemon Miaouss("Miaouss", 25, 100, PokeType1::Steel, "");
-Pokemon Togepi("Togepi", 25, 100, PokeType1::Fairy, "");
+Pokemon Rattata("Rattata", "I'm a Rat", PokeType1::Normal, 50, 105);
+Pokemon Charmander("Charmander", "I'm a", PokeType1::Fire, 13, 60);
+Pokemon Carapuce("Charmander", "I'm a", PokeType1::Fire, 13, 60);
+Pokemon Germignon("Germignon", "I'm Germignon", PokeType1::Grass, 5, 25);
+Pokemon Pikachu("Pikachu", "I'm Pikachu", PokeType1::Electric, 20, 100);
+Pokemon Goupix("Goupix", "I'm Goupix", PokeType1::Ice, 10, 50);
+Pokemon KickLee("KickLee", "I'm Kicklee", PokeType1::Fighting, 7, 25);
+Pokemon Abo("Abo", "I'm Abo", PokeType1::Poison, 4, 14);
+Pokemon Sablaireau("Sablaireau", "I'm Sablaireau", PokeType1::Ground, 8, 18);
+Pokemon Arceus("Arceus", "I'm Arceus", PokeType1::Flying, 10, 51);
+Pokemon Nucleos("Nucleos", "I'm Nucleos", PokeType1::Psychic, 7, 23);
+Pokemon Chenipan("Chenipan", "I'm Chenipan", PokeType1::Bug, 12, 30);
+Pokemon Kranidos("Kranidos", "I'm Kranidos", PokeType1::Rock, 4, 20);
+Pokemon Toutombe("Toutombe", "I'm Toutombe", PokeType1::Ghost, 5, 10);
+Pokemon Draco("Draco", "I'm Draco", PokeType1::Dragon, 10, 31);
+Pokemon Chacripain("Chacripan", "I'm Chacripan", PokeType1::Dark, 9, 20 );
+Pokemon Miaouss("Miaouss", "I'm Miaouss", PokeType1::Steel, 70, 50 );
+Pokemon Togepi("Togepi", "I'm Togepi", PokeType1::Fairy, 20, 42 );
 
-vector<Pokemon> AllPokemons = { Rattata, Charmander, Carapuce, Germignon, Pikachu, Goupix, KickLee, Abo, Sablaireau,
-Chenipan, Nucleos, };
+vector<Pokemon> AllPokemons = { Rattata, Charmander, Carapuce, Germignon, Pikachu, Goupix, KickLee, Abo, Sablaireau, Arceus, Nucleos,
+Chenipan, Kranidos, Toutombe, Draco, Chacripain, Miaouss, Togepi };
 
