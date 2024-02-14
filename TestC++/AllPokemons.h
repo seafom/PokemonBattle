@@ -10,7 +10,6 @@
 
 class AllPokemons
 {
-
 	//string Name, string Description, PokeType1 mPokeType, int Level, int Life
 };
 

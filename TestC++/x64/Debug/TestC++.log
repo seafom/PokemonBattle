@@ -1,5 +1,402 @@
-﻿  Main.cpp
+﻿  Ability.cpp
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(25,12): error C2365: 'Pokemon::mPokeType': redefinition; previous definition was 'data member'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(16,12): message : see declaration of 'Pokemon::mPokeType'
+  AllAbilities.cpp
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(25,12): error C2365: 'Pokemon::mPokeType': redefinition; previous definition was 'data member'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(16,12): message : see declaration of 'Pokemon::mPokeType'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(11,1): error C2011: 'Pokemon': 'class' type redefinition
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
+  AllPokemons.cpp
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(25,12): error C2365: 'Pokemon::mPokeType': redefinition; previous definition was 'data member'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(16,12): message : see declaration of 'Pokemon::mPokeType'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(11,1): error C2011: 'Pokemon': 'class' type redefinition
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(16,9): error C2079: 'Rattata' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(16,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(16,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(17,9): error C2079: 'Charmander' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(17,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(17,19): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(18,9): error C2079: 'Carapuce' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(18,17): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(18,17): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(19,9): error C2079: 'Germignon' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(19,18): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(19,18): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(20,9): error C2079: 'Pikachu' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(20,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(20,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(21,9): error C2079: 'Goupix' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(21,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(21,15): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(22,9): error C2079: 'KickLee' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(22,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(22,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(23,9): error C2079: 'Abo' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(23,12): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(23,12): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(24,9): error C2079: 'Sablaireau' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(24,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(24,19): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(25,9): error C2079: 'Arceus' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(25,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(25,15): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(26,9): error C2079: 'Nucleos' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(26,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(26,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(27,9): error C2079: 'Chenipan' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(27,17): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(27,17): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(28,9): error C2079: 'Kranidos' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(28,17): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(28,17): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(29,9): error C2079: 'Toutombe' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(29,17): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(29,17): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(30,9): error C2079: 'Draco' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(30,14): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(30,14): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(31,9): error C2079: 'Chacripain' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(31,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(31,19): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(32,9): error C2079: 'Miaouss' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(32,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(32,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(33,9): error C2079: 'Togepi' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(33,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(33,15): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::vector<Pokemon,std::allocator<Pokemon>>'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : 'std::vector<Pokemon,std::allocator<Pokemon>>::vector(std::initializer_list<_Ty>,const _Alloc &)': cannot convert argument 1 from 'initializer list' to 'std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=Pokemon,
+              _Alloc=std::allocator<Pokemon>
+          ]
+          and
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '1': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '2': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '3': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '4': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '5': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '6': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '7': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '8': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '9': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '10': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '11': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '12': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '13': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '14': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '15': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '16': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '17': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '18': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : while trying to match the argument list '(initializer list)'
+  Main.cpp
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(25,12): error C2365: 'Pokemon::mPokeType': redefinition; previous definition was 'data member'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(16,12): message : see declaration of 'Pokemon::mPokeType'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(11,1): error C2011: 'Pokemon': 'class' type redefinition
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
   Pokemon.cpp
-  PokeType.cpp
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(25,12): error C2365: 'Pokemon::mPokeType': redefinition; previous definition was 'data member'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(16,12): message : see declaration of 'Pokemon::mPokeType'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(11,1): error C2011: 'Pokemon': 'class' type redefinition
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(16,9): error C2079: 'Rattata' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(16,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(16,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(17,9): error C2079: 'Charmander' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(17,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(17,19): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(18,9): error C2079: 'Carapuce' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(18,17): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(18,17): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(19,9): error C2079: 'Germignon' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(19,18): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(19,18): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(20,9): error C2079: 'Pikachu' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(20,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(20,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(21,9): error C2079: 'Goupix' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(21,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(21,15): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(22,9): error C2079: 'KickLee' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(22,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(22,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(23,9): error C2079: 'Abo' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(23,12): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(23,12): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(24,9): error C2079: 'Sablaireau' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(24,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(24,19): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(25,9): error C2079: 'Arceus' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(25,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(25,15): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(26,9): error C2079: 'Nucleos' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(26,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(26,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(27,9): error C2079: 'Chenipan' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(27,17): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(27,17): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(28,9): error C2079: 'Kranidos' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(28,17): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(28,17): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(29,9): error C2079: 'Toutombe' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(29,17): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(29,17): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(30,9): error C2079: 'Draco' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(30,14): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(30,14): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(31,9): error C2079: 'Chacripain' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(31,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(31,19): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(32,9): error C2079: 'Miaouss' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(32,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(32,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(33,9): error C2079: 'Togepi' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(33,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(33,15): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): error C2440: 'initializing': cannot convert from 'initializer list' to 'std::vector<Pokemon,std::allocator<Pokemon>>'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : 'std::vector<Pokemon,std::allocator<Pokemon>>::vector(std::initializer_list<_Ty>,const _Alloc &)': cannot convert argument 1 from 'initializer list' to 'std::initializer_list<_Ty>'
+          with
+          [
+              _Ty=Pokemon,
+              _Alloc=std::allocator<Pokemon>
+          ]
+          and
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '1': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '2': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '3': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '4': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '5': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '6': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '7': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '8': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '9': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '10': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '11': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '12': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '13': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '14': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '15': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '16': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '17': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : Element '18': no conversion from 'int' to '_Ty'
+          with
+          [
+              _Ty=Pokemon
+          ]
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\AllPokemons.h(35,31): message : while trying to match the argument list '(initializer list)'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(18,10): error C2027: use of undefined type 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(10,7): message : see declaration of 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(19,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(20,5): error C2065: 'mName': undeclared identifier
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(21,5): error C2065: 'mDescription': undeclared identifier
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(22,15): error C2082: redefinition of formal parameter 'mPokeType'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(23,5): error C2065: 'mLevel': undeclared identifier
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(24,5): error C2065: 'mLife': undeclared identifier
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(32,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(36,13): error C2079: 'Rattata' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(36,20): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(36,20): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(37,13): error C2079: 'Charmander' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(37,23): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(37,23): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(38,13): error C2079: 'Carapuce' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(38,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(38,21): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(39,13): error C2079: 'Germignon' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(39,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(39,22): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(40,13): error C2079: 'Pikachu' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(40,20): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(40,20): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(41,13): error C2079: 'Goupix' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(41,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(41,19): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(42,13): error C2079: 'KickLee' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(42,20): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(42,20): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(43,13): error C2079: 'Abo' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(43,16): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(43,16): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(44,13): error C2079: 'Sablaireau' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(44,23): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(44,23): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(45,13): error C2079: 'Arceus' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(45,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(45,19): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(46,13): error C2079: 'Nucleos' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(46,20): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(46,20): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(47,13): error C2079: 'Chenipan' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(47,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(47,21): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(48,13): error C2079: 'Kranidos' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(48,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(48,21): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(49,13): error C2079: 'Toutombe' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(49,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(49,21): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(50,13): error C2079: 'Draco' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(50,18): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(50,18): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(51,13): error C2079: 'Chacripain' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(51,23): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(51,23): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(52,13): error C2079: 'Miaouss' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(52,20): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(52,20): message : The initializer contains too many elements
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(53,13): error C2079: 'Togepi' uses undefined class 'Pokemon'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(53,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.cpp(53,19): message : The initializer contains too many elements
+  Trainer.cpp
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(25,12): error C2365: 'Pokemon::mPokeType': redefinition; previous definition was 'data member'
+C:\Users\sibelle.bergier\Documents\TestCCplusplus1\TestC++\Pokemon.h(16,12): message : see declaration of 'Pokemon::mPokeType'
   Generating Code...
-  TestC++.vcxproj -> C:\Users\sibelle.bergier\Documents\TestCCplusplus1\x64\Debug\TestC++.exe

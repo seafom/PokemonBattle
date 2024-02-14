@@ -1,4 +1,3 @@
-#pragma once
 #include <iostream>
 #include <vector>
 #include <string>
@@ -17,44 +16,22 @@ private:
 	PokeType1 mPokeType;
 	int mLevel;
 	int mLife;
-	vector<Ability> mAbilities;
 
 public:
-	Pokemon(string Name, string Description, PokeType1 mPokeType, int Level, int Life);
+	Pokemon(string Name, string Description, PokeType1 PokeType, int Level, int Life);
 
 	string Getname();
 	string GetDescription();
 	PokeType1 mPokeType();
-	int Level();
-	int Life();
-	vector<Pokemon> AllPokemons();
+	string GetPokeType();
+	int GetLevel();
+	int GetLife();
+	
 };
 
 
 
 
-
-//TRAINER
-class Trainer
-{
-private:
-	string mFirstName;
-	string mLastName;
-	string mCatchPhrase;
-	int mMoney;
-	//UP TO 6 POKEMON
-	int mNumberPokeballs;
-
-public:
-	Trainer(string mFirstName, string mLastName, string mCatchPhrase, int mMoney, int mNumberPokeballs);
-
-	string GetFirstName();
-	string GetLastName();
-	string CatchPhrase();
-	int GetMoney();
-	int GetNumberPokeballs();
-
-};
 
 
 

@@ -14,7 +14,6 @@ private:
 	string mAttackName;
 	int mDamageAmount;
 	PokeType1 mPoketype;
-	vector<Ability> AllAbilities;
 
 public:
 
@@ -22,7 +21,6 @@ public:
 	string GetAttackName();
 	int GetDamageAmount();
 	PokeType1 GetPokeType();
-	vector<Ability> AllAbilities();
 
 };
 
